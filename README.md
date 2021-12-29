@@ -10,5 +10,6 @@ Steps
   - export PUBSUB_PROJECT_ID=abc
 - Then run the create-config.js file
 - Then start the server to listen events
+- Emit events running emitter.js
 
 Note: Use json-server is optional but it turns easier to emit events and configure it as a json
