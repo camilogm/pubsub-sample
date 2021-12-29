@@ -1,0 +1,13 @@
+{
+  "messages": [
+    {
+      "subscription": "projects/abc/subscriptions/my-sub",
+      "message": {
+        "data": "TWVzc2FnZSBudW1iZXIgMQ==",
+        "messageId": "10",
+        "attributes": {}
+      },
+      "id": 1
+    }
+  ]
+}

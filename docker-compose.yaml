@@ -1,0 +1,11 @@
+version: '3.0'
+
+services: 
+  pubsub:
+    image: gcr.io/google.com/cloudsdktool/cloud-sdk:366.0.0-emulators
+    container_name: pubsub
+    command:
+       /bin/bash -c 
+          "gcloud beta emulators pubsub start --project=abc --host-port=0.0.0.0:8085"
+    ports:
+      - 8080:8085
